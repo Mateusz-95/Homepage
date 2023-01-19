@@ -2,7 +2,7 @@
 
 ## Demo 
 
-https://mateusz-95.github.io/Homepage/
+https://mateusz-95.github.io/homepage/
 
 ## Description 
 
