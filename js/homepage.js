@@ -1,15 +1,23 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-let button = document.querySelector(".js-changeBackgroundButton");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+    const onChangeBackgroundClick = () => {
+        body.classList.toggle("darkTheme");
+        body.classList.contains("darkTheme")
+            ? themeName.innerText = ("jasny")
+            : themeName.innerText = ("ciemny");
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("darkTheme");
-    body.classList.contains("darkTheme")
-        ? themeName.innerText = ("jasny")
-        : themeName.innerText = ("ciemny");
+    welcome();
+
+    const button = document.querySelector(".js-changeBackgroundButton");
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".themeName");
 
 
-});
+    button.addEventListener("click", onChangeBackgroundClick);
 
+
+}
