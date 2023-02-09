@@ -9,4 +9,9 @@ https://mateusz-95.github.io/homepage/
 
 This is my first project during a programming course. Here my fascinating adventure begins! 
 
+## What do I use in project:
+- js code that switches the class of body
+- some CSS stuff like alternative box model, arrengement of elements, normalize css, BEM convention, OpenGraph, icon
+- general sense of aesthetics and selecting of colors on the site
+
 
