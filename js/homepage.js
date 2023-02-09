@@ -4,20 +4,22 @@
     }
 
     const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+
         body.classList.toggle("darkTheme");
         body.classList.contains("darkTheme")
             ? themeName.innerText = ("jasny")
             : themeName.innerText = ("ciemny");
     }
 
-    welcome();
+    const init = () => {
+        welcome();
 
-    const button = document.querySelector(".js-changeBackgroundButton");
-    const body = document.querySelector(".body");
-    const themeName = document.querySelector(".themeName");
+        const button = document.querySelector(".js-changeBackgroundButton");
 
+        button.addEventListener("click", onChangeBackgroundClick);
+    }
 
-    button.addEventListener("click", onChangeBackgroundClick);
-
-
+    init();
 }
