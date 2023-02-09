@@ -1,4 +1,5 @@
 # Mateusz Grygorowicz - my website
+![homepage screen](https://raw.githubusercontent.com/Mateusz-95/homepage/main/images/homepage%20screen.png)
 
 ## Demo 
 
